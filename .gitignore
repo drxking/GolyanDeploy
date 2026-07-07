@@ -1,0 +1,64 @@
+# =========================
+# Python / Backend
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Python virtual environment
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+# Alembic / cache
+.pytest_cache/
+.mypy_cache/
+
+# Uploads (user generated)
+backend/uploads/
+
+# =========================
+# Node
+# =========================
+
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+
+# =========================
+# Docker / Database
+# =========================
+
+docker-compose.yml
+pgdata/
+mongodata/
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
