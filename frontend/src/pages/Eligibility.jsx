@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const LEVELS = [
-  { key: 'school', label: 'School (Class 1–10)', icon: '📚', scholarships: ['School Scholarship', 'Remote District Support'] },
+  // { key: 'school', label: 'School (Class 1–10)', icon: '📚', scholarships: ['School Scholarship', 'Remote District Support'] },
   { key: 'plus2', label: '+2 / Higher Secondary', icon: '📖', scholarships: ['+2 Scholarship', 'Women in STEM', 'Remote District Support'] },
   { key: 'bachelor', label: 'Bachelor', icon: '🎓', scholarships: ['Bachelor Scholarship', 'Women in STEM', 'Remote District Support'] },
   { key: 'master', label: 'Master', icon: '🔬', scholarships: ['Master Scholarship', 'Women in STEM'] },
