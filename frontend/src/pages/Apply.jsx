@@ -98,7 +98,7 @@ const DISTRICTS = [
   'Western Rukum',
 ];
 
-const EDUCATION_LEVELS = ['School (Class 1-10)', '+2 / Higher Secondary', 'Bachelor', 'Master', 'PhD'];
+const EDUCATION_LEVELS = ['+2 / Higher Secondary', 'Bachelor', 'Master', 'PhD'];
 const INCOME_RANGES = ['Below 1 Lakh', '1-3 Lakh', '3-5 Lakh', '5-10 Lakh', 'Above 10 Lakh'];
 const CATEGORIES = ['None', 'Dalit', 'Janajati', 'Madhesi', 'Muslim', 'Person with Disability', 'Other'];
 const ALLOWED_TYPES = ['application/pdf', 'image/jpeg', 'image/png'];

@@ -1,11 +1,5 @@
 const SCHOLARSHIP_COURSES = [
   {
-    educationLevel: 'School (Class 1-10)',
-    courses: [
-      { name: 'General School Education', available: true },
-    ],
-  },
-  {
     educationLevel: '+2 / Higher Secondary',
     courses: [
       { name: 'Science', available: true },

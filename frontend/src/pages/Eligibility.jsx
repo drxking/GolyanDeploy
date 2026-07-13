@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const LEVELS = [
-  // { key: 'school', label: 'School (Class 1–10)', icon: '📚', scholarships: ['School Scholarship', 'Remote District Support'] },
   { key: 'plus2', label: '+2 / Higher Secondary', icon: '📖', scholarships: ['+2 Scholarship', 'Women in STEM', 'Remote District Support'] },
   { key: 'bachelor', label: 'Bachelor', icon: '🎓', scholarships: ['Bachelor Scholarship', 'Women in STEM', 'Remote District Support'] },
   { key: 'master', label: 'Master', icon: '🔬', scholarships: ['Master Scholarship', 'Women in STEM'] },
@@ -24,7 +23,7 @@ const Eligibility = () => {
     let scholarships = [...levelData.scholarships];
     if (DISTRICTS_REMOTE.includes(answers.district)) scholarships.push('Remote District Support');
     scholarships = [...new Set(scholarships)];
-    const eligible = parseFloat(answers.gpa) >= 2.8 || answers.level === 'school';
+    const eligible = parseFloat(answers.gpa) >= 2.8;
     setResults({ eligible, scholarships: eligible ? scholarships : [] });
     setStep(3);
   };

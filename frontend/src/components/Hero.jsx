@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="mt-2 h-1 w-20 bg-pg-gold rounded-full"></div>
 
             <p className="mt-8 text-lg text-gray-500 leading-relaxed max-w-lg">
-              The Pawan Golyan Scholarship Program provides full financial support, mentorship, and opportunity to students from <strong className="text-gray-700">Class 1 through PhD</strong> — across all 77 districts of Nepal.
+              The Pawan Golyan Scholarship Program provides full financial support, mentorship, and opportunity to students from <strong className="text-gray-700">+2 through PhD</strong> — across all 77 districts of Nepal.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
