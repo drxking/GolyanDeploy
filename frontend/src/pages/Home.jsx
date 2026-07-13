@@ -56,7 +56,7 @@ const FAQItem = ({ q, a }) => {
 
 // --- Data ---
 const scholarships = [
-  { icon: '📚', title: 'School Scholarship', level: 'Class 1–10', desc: 'Full coverage of tuition, books, and school supplies for meritorious students across Nepal.', eligibility: 'GPA ≥ 3.0, family income below NRs 3 Lakh/year' },
+  // { icon: '📚', title: 'School Scholarship', level: 'Class 1–10', desc: 'Full coverage of tuition, books, and school supplies for meritorious students across Nepal.', eligibility: 'GPA ≥ 3.0, family income below NRs 3 Lakh/year' },
   { icon: '🎓', title: '+2 Scholarship', level: 'Higher Secondary', desc: 'Supporting students in science, management, and humanities streams at the +2 level.', eligibility: 'SEE GPA ≥ 3.2, any province' },
   { icon: '🏛️', title: 'Bachelor Scholarship', level: 'Undergraduate', desc: 'Complete tuition and stipend for bachelor\'s degree programs in any discipline.', eligibility: 'GPA ≥ 3.0 in +2, entrance exam score' },
   { icon: '🔬', title: 'Master Scholarship', level: 'Postgraduate', desc: 'Specialized financial support for postgraduate studies with mentorship access.', eligibility: 'Bachelor\'s GPA ≥ 3.2, SOP required' },
@@ -96,7 +96,7 @@ const Home = () => {
       <Hero />
 
       {/* Stats */}
-      <section className="bg-pg-maroon py-14">
+      {/* <section className="bg-pg-maroon py-14">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
             {stats.map((s, i) => (
@@ -109,10 +109,10 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* About Section */}
-      <section id="about" className="py-24 bg-white">
+      {/* <section id="about" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
             <div>
@@ -149,7 +149,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Scholarship Categories */}
       <section id="scholarships" className="py-24 bg-gray-50">
@@ -181,7 +181,7 @@ const Home = () => {
       </section>
 
       {/* Scholar Stories / Testimonials */}
-      <section id="scholars" className="py-24 bg-white">
+      {/* <section id="scholars" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-pg-gold font-semibold text-sm uppercase tracking-widest">Scholar Stories</p>
@@ -206,7 +206,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ */}
       <section id="faq" className="py-24 bg-gray-50">
