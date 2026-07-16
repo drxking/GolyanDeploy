@@ -64,15 +64,15 @@ const Footer = () => {
         <div className='md:col-span-1'>
           <h3 className="text-base font-semibold text-white tracking-wider uppercase">Support</h3>
           <ul className="mt-4 space-y-4">
-            <li><a href="#" className="text-base text-gray-300 hover:text-white">Eligibility Criteria</a></li>
-            <li><a href="#" className="text-base text-gray-300 hover:text-white">FAQ</a></li>
+            <li><a href="/eligibility" className="text-base text-gray-300 hover:text-white">Eligibility Criteria</a></li>
+            <li><a href="/#faq" className="text-base text-gray-300 hover:text-white">FAQ</a></li>
             <li><a href="#" className="text-base text-gray-300 hover:text-white">Contact Us</a></li>
           </ul>
         </div>
       </div>
       <div className=" border-t border-gray-700 p-4">
         <p className="text-base text-gray-400 xl:text-center">
-          &copy; {new Date().getFullYear()} Pawan Golyan Scholarship Program. All rights reserved.
+          &copy; {new Date().getFullYear()} SevenPetal Scholarship Program. All rights reserved.
         </p>
       </div>
     </footer>

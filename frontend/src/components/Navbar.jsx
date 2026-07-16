@@ -7,7 +7,6 @@ const navLinks = [
   { to: '/#scholarships', label: 'Scholarships' },
   { to: '/eligibility', label: 'Eligibility' },
   { to: '/apply', label: 'Apply' },
-  { to: '/#scholars', label: 'Scholars' },
   { to: '/#faq', label: 'FAQs' },
 ];
 

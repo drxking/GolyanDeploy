@@ -34,10 +34,11 @@ const Login = () => {
           <div className="absolute bottom-20 -right-10 w-96 h-96 bg-white rounded-full"></div>
         </div>
         <div className="relative z-10 text-center text-white max-w-md">
-          <div className="w-16 h-16 bg-pg-gold rounded-xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-            <span className="text-pg-maroon font-black text-2xl">PG</span>
+
+          <div className='flex justify-center'>
+            <img src="logoonly.png" alt="SevenPetal" className='h-20 rounded-full mb-5' />
           </div>
-          <h1 className="text-4xl font-extrabold">Pawan Golyan<br />Scholarship Program</h1>
+          <h1 className="text-4xl font-extrabold">SevenPetal<br />Scholarship Program</h1>
           <div className="mt-4 h-1 w-16 bg-pg-gold rounded-full mx-auto"></div>
           <p className="mt-6 text-red-200 text-lg leading-relaxed">
             Log in to track your application, upload documents, and stay informed on your scholarship status.

@@ -78,7 +78,7 @@ const testimonials = [
 ];
 
 const faqs = [
-  { q: 'Who is eligible to apply for the Pawan Golyan Scholarship?', a: 'Students from +2 to PhD level enrolled in recognized Nepali institutions are eligible. Priority is given to students from low-income families, remote districts, and marginalized communities.' },
+  { q: 'Who is eligible to apply for the SevenPetal Scholarship?', a: 'Students from +2 to PhD level enrolled in recognized Nepali institutions are eligible. Priority is given to students from low-income families, remote districts, and marginalized communities.' },
   { q: 'What documents are required for the application?', a: 'Required documents vary by education level. Generally, you will need academic transcripts, a character certificate, citizenship or guardian\'s citizenship for minors, and a recent photograph. The application system guides you through exactly what is needed.' },
   { q: 'Is this scholarship open for students studying abroad?', a: 'Currently, the scholarship is focused on students enrolled in Nepal. However, PhD candidates with international research collaborations may be considered on a case-by-case basis.' },
   { q: 'How long does the review process take?', a: 'After submission, applications are reviewed within 4–6 weeks. Shortlisted candidates are contacted for an interview. Final awardees are announced within 3 months of the application deadline.' },
