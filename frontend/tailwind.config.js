@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'pg-maroon': '#800000',
-        'pg-maroon-light': '#9B2335',
+        'pg-maroon': '#3D67B7',
+        'pg-maroon-light': '#3D67B7',
         'pg-gold': '#D4AF37',
         'pg-gold-light': '#F0D060',
       },

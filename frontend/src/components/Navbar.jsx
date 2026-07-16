@@ -43,17 +43,18 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+        <div className="flex justify-between  items-center">
 
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-8 h-8 bg-pg-maroon rounded-sm flex items-center justify-center">
+            {/* <div className="w-8 h-8 bg-pg-maroon rounded-sm flex items-center justify-center">
               <span className="text-pg-gold font-black text-sm">PG</span>
-            </div>
+            </div> */}
             <div>
-              <span className="text-xl font-extrabold text-pg-maroon leading-none">Golyan</span>
-              <span className="text-xl font-extrabold text-pg-gold leading-none">Scholars</span>
+              {/* <span className="text-xl font-extrabold text-pg-maroon leading-none">Seven</span>
+              <span className="text-xl font-extrabold text-pg-gold leading-none">Petal</span> */}
+              <img src="logo.png" alt="SevenPetal" className='h-16' />
             </div>
           </Link>
 

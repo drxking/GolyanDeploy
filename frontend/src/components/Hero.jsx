@@ -47,7 +47,7 @@ const Hero = () => {
               </Link>
             </div>
 
-            <div className="mt-12 flex items-center gap-8 divide-x divide-gray-200">
+            {/* <div className="mt-12 flex items-center gap-8 divide-x divide-gray-200">
               <div>
                 <div className="text-2xl font-bold text-pg-maroon">2,500+</div>
                 <div className="text-xs text-gray-400 mt-0.5 uppercase tracking-wide">Active Scholars</div>
@@ -60,7 +60,7 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-pg-maroon">94%</div>
                 <div className="text-xs text-gray-400 mt-0.5 uppercase tracking-wide">Graduation Rate</div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Hero image */}

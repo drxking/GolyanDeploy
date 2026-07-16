@@ -46,7 +46,9 @@ const Footer = () => {
       <div className="grid md:grid-cols-4  py-20 lg:px-40 md:px-20 px-5 md:gap-3 gap-10">
 
         <div className='flex-1 space-y-3 md:col-span-2 '>
-          <span className="text-2xl font-bold text-white tracking-tight">Golyan<span className="text-pg-gold">Scholars</span></span>
+          {/* <span className="text-2xl font-bold text-white tracking-tight">Seven<span className="text-pg-gold">Petal</span></span> */}
+              <img src="logo.png" alt="SevenPetal" className='h-20' />
+
           <p className="text-gray-400 text-base sm:w-2/3">
             Empowering the youth of Nepal through accessible education, research, and opportunity.
           </p>
@@ -54,7 +56,6 @@ const Footer = () => {
         <div className='md:col-span-1'>
           <h3 className="text-base font-semibold text-white tracking-wider uppercase">Scholarships</h3>
           <ul className="mt-4 space-y-4">
-            <li><a href="#" className="text-base text-gray-300 hover:text-white">School Level</a></li>
             <li><a href="#" className="text-base text-gray-300 hover:text-white">+2 Level</a></li>
             <li><a href="#" className="text-base text-gray-300 hover:text-white">Bachelor Level</a></li>
             <li><a href="#" className="text-base text-gray-300 hover:text-white">Master & PhD</a></li>
